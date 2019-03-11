@@ -1,7 +1,11 @@
 
 <h1>{{ title }}</h1>
 
-<!-- Affichage du component heroes -->
-<app-heroes></app-heroes>
+<nav>
+    <a routerLink="/heroes">Heroes</a>
+</nav>
+
+<!-- Affichage des component à l'aide du rooting -->
+<router-outlet></router-outlet>
 <!-- Affichage du component messages -->
 <app-messages></app-messages>
